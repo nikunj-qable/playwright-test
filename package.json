@@ -1,0 +1,17 @@
+{
+  "name": "prange-hrm-2",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.7.0"
+  }
+}
